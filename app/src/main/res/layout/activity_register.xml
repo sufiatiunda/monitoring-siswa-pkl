@@ -56,7 +56,7 @@
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
-        android:id="@+id/passwordconfirm"
+        android:id="@+id/passwordconfirmp"
         android:layout_below="@id/tlpassword"
         android:layout_marginTop="15dp"
         app:passwordToggleEnabled="true"
@@ -78,7 +78,7 @@
         android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordconfirm"
+        android:layout_below="@id/passwordconfirmp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="23dp"
         android:background="@drawable/btn_login"
